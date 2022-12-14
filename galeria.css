@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Rosarivo', serif;
+  background-color: #000000;  
+}
+
+ul.album-fotos {
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul.album-fotos li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid rgb(7, 159, 30);
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+ul.album-fotos li span {
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  color: rgb(255, 156, 27);
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgba(0,0,0,.3);
+  font-size: 9pt;
+  line-height: 370px;
+  padding: 5px;
+}
+
+ul.album-fotos li:hover {
+  -webkit-transform: scale(1.5);
+  -webkit-transition: all .5s ease-in;
+}
+
+ul.album-fotos li:hover span {
+  opacity: 1;
+}
+
+/*  Configuração das fotos */
+
+ul.album-fotos li.foto01 {
+  background: url("https://www.abc.es/media/ciencia/2021/04/15/AdobeStock_214101651-kyd--1248x698@abc.jpeg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul.album-fotos li.foto01:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul.album-fotos li.foto02 {
+  background: url("https://www.sopitas.com/wp-content/uploads/2017/06/t-rex-emplumado.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul.album-fotos li.foto02:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul.album-fotos li.foto03 {
+  background: url("https://estaticos.muyinteresante.es/uploads/images/article/63282e785bafe8dbc7996701/sue-trex.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul.album-fotos li.foto03:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+
+ul.album-fotos li.foto04 {
+    background: url("https://www.reuters.com/resizer/0q0AZ1mrawTM8yfhTPqXWiUP48c=/1920x2400/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XMRZEKH7EFIIHONT4FV34K34GQ.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto05 {
+    background: url("https://static.wikia.nocookie.net/dino/images/6/66/Spinosaurus.jpg/revision/latest?cb=20130217075339&path-prefix=es") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto06 {
+    background: url("https://d3qi0qp55mx5f5.cloudfront.net/paulsereno/i/content/IMG_4407.JPG") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+
+
+  ul.album-fotos li.foto07 {
+    background: url("https://i.pinimg.com/originals/95/6c/b0/956cb0a9cc66d4822160fd8e27c21ac0.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto07:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto08 {
+    background: url("https://qph.cf2.quoracdn.net/main-qimg-335412a589267c593673569823dfa13f-lq") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto08:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto09 {
+    background: url("https://dam.ngenespanol.com/wp-content/uploads/2022/03/Fxqy87tW7XcdNnxd8qJzcT-970-80.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+
+
+  ul.album-fotos li.foto010 {
+    background: url("https://static.wikia.nocookie.net/jurassicworld-evolution/images/c/cb/Velociraptor_database_image_from_Evolution_2.png/revision/latest?cb=20211209152812") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto010:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto011 {
+    background: url("https://static.wikia.nocookie.net/jurassicpark/images/1/19/Pyroraptor.webp/revision/latest?cb=20220319093812&path-prefix=fr") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto011:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+  
+  ul.album-fotos li.foto012 {
+    background: url("https://i.pinimg.com/550x/9e/20/c3/9e20c3034ebdd8f7c351db0478f52a04.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+  }
+  
+  ul.album-fotos li.foto012:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+  }
+
+ul.album-fotos li.foto013 {
+background: url("https://t4.ftcdn.net/jpg/04/78/21/75/360_F_478217587_6JBW8ZIMtj3P3upyR5gj6SYhGUW872nQ.jpg") no-repeat;
+background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+}
+
+ul.album-fotos li.foto013:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul.album-fotos li.foto014 {
+background: url("https://pbs.twimg.com/media/DfFFE1fWAAAfoMO?format=jpg&name=small") no-repeat;
+background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+}
+
+ul.album-fotos li.foto014:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul.album-fotos li.foto015 {
+background: url("https://p.turbosquid.com/ts-thumb/40/ZN0QAm/bGRcXTyY/m01/jpg/1511884459/600x600/fit_q87/0a3c3856105fb593acb4b2fe5844239caaae7bbe/m01.jpg") no-repeat;
+background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+}
+
+ul.album-fotos li.foto015:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+h1
+{
+color: rgb(255, 156, 27);
+text-align: center;
+}
+
+li
+{
+text-align: center;
+}
+
+h2
+{
+margin-left: 12%;
+}
+
+a {
+    margin-left: 50PX;
+    color: rgb(55, 76, 134);
+    background-color: rgb(0, 0, 0);
+    transition: background-color .5s;
+  }
+  
+  a:hover 
+  {
+  background-color: rgba(255, 255, 255, 0.651);
+  }
+  
+  a:active
+  {
+  color:rgb(255, 0, 0)
+  }
