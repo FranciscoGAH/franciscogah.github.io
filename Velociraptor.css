@@ -1,0 +1,96 @@
+body
+{
+  font-family: 'Rosarivo', serif;
+    color: rgb(255, 255, 255, 0.25);
+    font-size: large;
+    margin: 0;
+    background: #090d00;
+    text-align: justify;
+}
+
+@keyframes filling 
+{
+    from{
+        background-position: center 25%;
+      }
+      to {
+        background-position: center 50%;
+      }    
+}
+      
+      .container-text {
+        background-image:  url(https://i.pinimg.com/originals/f2/cb/de/f2cbde8a98092bb1534357a61120b304.png);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color:  #ffffff;
+        padding-top: 20px;
+        font-size: 130px;
+        font-family: 'Bungee', block;
+        animation: filling 2s ease forwards infinite;
+        text-align: center;      
+      }
+
+
+
+      #Velociraptor
+      {
+    float: left;
+    height: 450px;
+    width: 730px;
+    margin-left: 30px;
+      }
+
+      
+      a {
+        margin-left: 50PX;
+        color: rgb(55, 76, 134);
+        background-color: rgb(0, 0, 0);
+        transition: background-color .5s;
+      }
+      
+      a:hover 
+      {
+      background-color: rgba(255, 255, 255, 0.651);
+      }
+      
+      a:active
+      {
+      color:rgb(255, 0, 0)
+      }
+
+      h1
+      {
+    text-align: right;
+    margin-right: 30px;
+    font-size: x-large;
+      }
+
+      h2
+      {
+    text-align: justify;
+    font-size: larger;
+    margin-left: 830px;
+    margin-right: 30px;
+      }
+
+      #audiot
+      {
+margin-right: 360px;
+      }
+
+    #fosil
+    {
+        float: left;
+        height: 450px;
+    }
+
+    h3
+    {
+  font-size: x-large;
+  text-align: center;
+    }
+
+    #video
+      {
+   margin-left: 22%;
+      }
